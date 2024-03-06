@@ -1,0 +1,19 @@
+.mainContainer {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    animation-name: myDivStyle;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes myDivStyle {
+    0%   {border:3px solid red;}
+    25%  {border:3px solid yellow;}
+    50%  {border:3px solid aqua;}
+    100% {border:3px solid  green;}
+  }
